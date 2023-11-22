@@ -1,0 +1,328 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-size: medium;
+}
+
+.main{
+  width: 100%;
+  height: 50vh;
+  background-color: maroon;
+  color: white;
+  margin-bottom: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.tombol{
+  background-color: #dddddd;
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 15px 20px 15px 20px;
+  width: 100px;
+  color: maroon;
+  font-weight: bold;
+  transition: .6s;
+}
+
+.tombol:hover{
+  background: #4f0007;
+  color: #dddddd;
+}
+
+.text_main{
+ padding-top: 90px;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+
+.foto:hover{
+  width: 650px;
+  height: 650px;
+}
+
+.menu {
+  display: flex;
+  justify-content:flex-end;
+  background-color: #dddddd;
+  padding-right: 20px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.menu ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li{
+  margin: 10px 25px;
+}
+
+.menu a{
+  color:brown;
+  font-size: xx-large;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+h1{
+  font-size: xx-large;
+  padding-bottom: 50px;
+}
+
+.foto{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  transition: .3s ease-in-out; 
+}
+
+.owewe {
+  margin: auto;
+  display: flex;
+}
+
+.kanan_text{
+  margin-top: 80px;
+  padding-right: 50px;
+}
+
+p{
+  line-height: 25px;
+  padding-bottom: 25px;
+}
+
+.k{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.kiri_text{
+  padding-left: 50px;
+  margin-top: 80px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.kontak{
+  padding-top: 100px;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  transition: .3s;
+}
+
+.icon:hover{
+  width: 80px;
+  height: 80px;
+}
+
+.end{
+  width: 100%;
+  height: 10vh;
+  background-color: #dddddd;
+  padding-top: 50px;
+  text-decoration: dashed;
+}
+
+@media (max-width: 480px) {
+
+  .menu{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .menu a{
+    font-size: large;
+  }
+
+  h1{
+    font-size: smaller;
+    padding-bottom: 15px;
+  }
+  p{
+    font-size: x-small;
+    line-height: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .foto{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 130px;
+    flex-direction: column;
+    align-items: flex-start;
+    float: left;
+
+  }
+
+  .foto:hover{
+    width: 200px;
+    height: 200px;
+  }
+
+  .kanan_text{
+    padding-left: 5px;
+    padding-right: 5px;
+    word-wrap: break-word;
+    align-items: flex-end;
+    
+  }
+  .kiri_text{
+    padding-left: 5px;
+    padding-right: 5px;
+    word-wrap: break-word;
+    align-items: flex-end;
+  }
+
+  .wrapper {
+    width: 400px;
+    margin: auto;
+    position: relative;
+    word-wrap: break-word;
+    right: 10px;
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+    transition: .3s;
+  }
+
+  .icon:hover{
+    width: 70px;
+    height: 70px;
+  }
+
+  .griffin .owewe{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .menu{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .menu a{
+    font-size: large;
+  }
+
+  h1{
+    font-size: small;
+    padding-bottom: 15px;
+  }
+  p{
+    font-size: x-small;
+    line-height: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .foto{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 10px;
+    top: 130px;
+    flex-direction: column;
+    align-items: flex-start;
+    float: left;
+  }
+
+  .foto:hover{
+    width: 235px;
+    height: 235px;
+  }
+
+  .kanan_text{
+    padding-left: 7px;
+    padding-right: 7px;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  .kiri_text{
+    padding-left: 20px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    text-align: left;
+  }
+
+  .wrapper {
+    width: 500px;
+    margin: auto;
+    position: relative;
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+    transition: .3s;
+  }
+
+  .icon:hover{
+    width: 70px;
+    height: 70px;
+  }
+  
+  h1{
+    font-size: small;
+    padding-bottom: 15px;
+  }
+  p{
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .kanan_text{
+    padding-left: 10px;
+    padding-right: 8px;
+    word-wrap: break-word;
+    align-items: flex-end;
+  }
+  .kiri_text{
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+
+  .wrapper {
+    width: 450px;
+    margin: auto;
+    position: relative;
+    word-wrap: break-word;
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+  }
+  .griffin .owewe{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
